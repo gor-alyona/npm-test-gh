@@ -1,6 +1,12 @@
 {
-  "name": "npm",
-  "version": "0.0.0",
+  "name": "npm-test-gh",
+  "version": "1.0.1",
+  "description": "Test publish",
+  "license": "MIT",
+  "author": {
+    "email": "gor-89@yandex.ru",
+    "name": "Gor Hakobyan"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +14,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "keywords": [
+    "npm publish test"
+  ],
+  "private": false,
   "dependencies": {
     "@angular/animations": "~12.1.1",
     "@angular/common": "~12.1.1",
@@ -35,5 +44,13 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gor-alyona/npm-test-gh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gor-alyona/npm-test-gh/issues"
+  },
+  "homepage": "https://github.com/gor-alyona/npm-test-gh#readme"
 }
